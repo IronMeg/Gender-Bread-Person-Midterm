@@ -97,7 +97,7 @@ function setup() {
 
 function draw() {
   fill(255);
-  rect(0,0,width,height);
+  rect(-10,-10,width+10,height+10);
   
   //Gender Expression for real
   var GendR = SArSlider.value();
