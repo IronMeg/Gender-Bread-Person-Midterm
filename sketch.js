@@ -19,8 +19,8 @@ var input, button, greeting;
 
 var buttonS;
 
-var sliderMax = 20;
-var bubSize = 70;
+var sliderMax = 50;
+var bubSize = 30;
 
 var GEx = 20;
 var GEy = 100;
@@ -51,7 +51,7 @@ function setup() {
   
   //GE Sliders
   //RED
-  GErSlider = createSlider(0,255,0);
+  GErSlider = createSlider(0,255,255);
   GErSlider.position(GEx+30,GEy+20);
   //BLUE
   GEbSlider = createSlider(0,255,0);
